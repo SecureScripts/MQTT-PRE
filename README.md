@@ -33,11 +33,12 @@ To generate Figures 6 and 7, use the script `SimulationRealScenario.py`. This re
 To reduce computation time, adjust the time limit in the Core.py file. Modify the following line in the class Core.py:
 ```python
    model.setParam("TimeLimit", 1400)
-
+```
 #### Setting up Gurobi
 1. **Install the Gurobi Python library:**
    ```bash
    pip install gurobipy
+   ```
 2. **Obtain and activate a Gurobi license:**
    Obtain a license from Gurobi's official website.
    Configure your license as required by Gurobi's installation instructions.

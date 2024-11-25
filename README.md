@@ -40,6 +40,7 @@ To generate Figures 6 and 7, use the script `SimulationRealScenario.py`. This re
    Configure your license as required by Gurobi's installation instructions.
 3. **Obtain and activate a Gurobi license:**
    Update the params dictionary in the Core.py file with your Gurobi license details:
+```python
    params = {
     "WLSACCESSID": '#################################',  # Replace with your WLSACCESSID
     "WLSSECRET": '#################################',   # Replace with your WLSSECRET

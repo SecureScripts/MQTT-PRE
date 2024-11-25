@@ -30,6 +30,9 @@ To reduce the simulation time, you can lower the value of the `n_simulations` va
 ### Figures 6 and 7
 
 To generate Figures 6 and 7, use the script `SimulationRealScenario.py`. This requires installing the **Gurobi** optimization library and activating a valid license.
+To reduce computation time, adjust the time limit in the Core.py file. Modify the following line in the class Core.py:
+```python
+   model.setParam("TimeLimit", 1400)
 
 #### Setting up Gurobi
 1. **Install the Gurobi Python library:**
